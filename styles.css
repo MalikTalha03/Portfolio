@@ -88,4 +88,33 @@
     font-size: 16px;
     color: #172b4d;
     font-family: Poppins;
+    background-image: url(./images/header.png);
+    background-repeat: no-repeat;
 }
+.primary-text-txt-container {
+    line-break: anywhere;
+    width: 100%;
+}
+.primary-text {
+    position: relative;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    font-family: Poppins;
+    color: #172b4d;
+    text-align: left;
+    align-items: center;
+    width: 327px;
+    height: 150px;
+}
+.ellipse-icon {
+    position: relative;
+    height: 26.81px;
+    
+}
+
+
+
+
+
+
