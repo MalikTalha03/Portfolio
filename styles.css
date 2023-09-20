@@ -41,9 +41,7 @@
     width: 170.17px;
     height: 20px;
 }
-.intro {
-    margin: 0;
-}
+
 .description {
     position: relative;
     line-height: 24px;
@@ -95,10 +93,7 @@
     background-position: center center; 
 }
 
-.primary-text-txt-container {
-    line-break: anywhere;
-    width: 100%;
-}
+
 .primary-text {
     position: relative;
     font-size: 40px;
@@ -116,6 +111,7 @@
     height: 26.81px;
     
 }
+
 
 
 
