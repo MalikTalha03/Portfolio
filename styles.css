@@ -90,7 +90,11 @@
     font-family: Poppins;
     background-image: url(./images/header.png);
     background-repeat: no-repeat;
+
+    background-size: cover; 
+    background-position: center center; 
 }
+
 .primary-text-txt-container {
     line-break: anywhere;
     width: 100%;
