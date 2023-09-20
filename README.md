@@ -53,8 +53,8 @@ You can deploy this project using Github Pages
 
 👤 **Muhammad Talha Naqshbandi**
 
-- GitHub: [@githubhandle](https://github.com/MalikTalha03)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/vatalha03)
+- GitHub: [@MalikTalha03](https://github.com/MalikTalha03)
+- LinkedIn: [Muhammad Talha Naqshbandi](https://linkedin.com/in/vatalha03)
 
 ## 🤝 Contributing <a name="contributing"></a>
 
