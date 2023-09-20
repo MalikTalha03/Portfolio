@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
 .logo {
   position: absolute;
   top: calc(50% - 20px);
@@ -96,8 +98,8 @@
   font-family: Poppins;
   background-image: url(./images/header.png);
   background-repeat: no-repeat;
-  background-size: cover; 
-  background-position: center center; 
+  background-size: cover;
+  background-position: center center;
 }
 
 .primary-text {
@@ -117,11 +119,3 @@
   position: relative;
   height: 26.81px;
 }
-
-
-
-
-
-
-
-
