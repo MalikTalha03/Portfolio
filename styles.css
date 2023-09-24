@@ -4,11 +4,7 @@
   position: absolute;
   top: calc(50% - 20px);
   left: 12px;
-  display: flex;
-  flex-direction: row;
   padding: 10px 12px;
-  align-items: center;
-  justify-content: flex-start;
 }
 
 .container {
@@ -21,25 +17,11 @@
   font-family: 'Poppins', sans-serif;
 }
 
-.button {
-  position: relative;
-  width: 24px;
-  height: 24px;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-
 .menu {
   position: absolute;
   top: calc(50% - 20px);
   right: 24px;
-  border-radius: 8px;
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
   padding: 8px;
-  align-items: flex-start;
-  justify-content: flex-start;
 }
 
 .social-media-icons {
@@ -111,9 +93,4 @@
   align-items: center;
   width: 327px;
   height: 150px;
-}
-
-.ellipse-icon {
-  position: relative;
-  height: 26.81px;
 }
