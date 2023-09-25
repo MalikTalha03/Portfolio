@@ -48,7 +48,6 @@
   color: #344563;
   width: 327px;
   height: auto;
-  border: 2px solid red;
 }
 
 .lets-connect {
@@ -56,8 +55,8 @@
   line-height: 24px;
   font-weight: 500;
   color: #7f8cff;
-  border: 2px solid red;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 .primary-text {
