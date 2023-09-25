@@ -34,19 +34,13 @@
   height: auto;
 }
 
-.social-media {
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  color: #7f8cff;
-}
-
 .lets-connect {
   position: relative;
   line-height: 24px;
   font-weight: 500;
+  color: #7f8cff;
+  border: 2px solid red;
+  margin-top: 0;
 }
 
 .headline {
