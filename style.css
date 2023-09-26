@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 .logo {
-  margin-left: 20px;
+  margin-left: 130px;
 }
 
 .container {
@@ -18,6 +18,7 @@
 
 .menu {
   margin-left: auto;
+  margin-right: 100px;
 }
 
 .menu-itm {
@@ -58,30 +59,20 @@
 }
 
 .connect {
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 16px;
+  font-weight: 500;
   margin-left: 200px;
-  color: #293deb;
+  color: #7f8cff;
+  margin-bottom: 10px;
 }
 
 .social {
-  display: flex;
   margin-left: 200px;
   padding-left: 0;
-}
-
-ul {
-  list-style: none;
-}
-
-.socials {
-  width: 5%;
-}
-
-.socials img {
-  width: 20px;
+  width: 170.167px;
   height: 20px;
 }
+
 
 /* Work section CSS*/
 
@@ -204,4 +195,127 @@ ul {
 
 .reverse-card {
   flex-direction: row-reverse;
+}
+
+.about {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  margin-left: 30px;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+}
+
+.details {
+  display: inline-flex;
+  flex-direction: column;
+  margin-top: 166px;
+  margin-left: 143px;
+  margin-bottom: 447px;
+  width: 447px;
+}
+
+.about-head {
+  height: 33px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  color: #091e42;
+}
+
+.about-description {
+  height: auto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #344563;
+}
+
+.lets-connect {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  height: auto;
+  color: #7f8cff;
+
+}
+
+.social-media-icons {
+  padding-left: 0;
+  width: 170.167px;
+  height: 20px;
+}
+
+.resume {
+  font-size: 17px;
+  font-weight: 500;
+  padding: 12px;
+  border: 2px solid #396df2;
+  border-radius: 10px;
+  width: 140px;
+  text-align: center;
+  color: #396df2;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  margin-top: 166px;
+  margin-left: 150px;
+  width: 500px;
+  font-family: 'Poppins', sans-serif;
+  margin-right: 142px;
+}
+
+.skills-head {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #344563;
+  padding-top: 25px;
+}
+
+.langs {
+  display: flex;
+}
+
+.lang-element {
+  background-color: whitesmoke;
+  height: 98px;
+  border-radius: 10px;
+  width: 108px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.lang-element img {
+  width: 48px;
+  height: 48px;
+  align-self: flex-start;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.lang-element h4 {
+  width: 98px;
+  height: 24px;
+  font-size: 15px;
+  font-weight: 500;
+  align-self: flex-end;
+  color: #253858;
+}
+
+.skills-head {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 500;
+  color: #344563;
+  padding-right: 20px;
+}
+
+.border {
+  border-bottom: 2px solid #dfe1e6;
 }
