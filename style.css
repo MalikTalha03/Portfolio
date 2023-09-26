@@ -109,7 +109,7 @@ ul {
 }
 
 .snapshoot {
-  background-image: url(./images/Snapshoot1.png);
+  background-image: url(./asset/Snapshoot1.png);
   background-repeat: no-repeat;
   background-size: 100%;
   height: 230px;
@@ -173,13 +173,13 @@ ul {
 }
 
 .snap2 {
-  background-image: url(./images/Snapshoot2.png);
+  background-image: url(./asset/Snapshoot2.png);
 }
 
 .snap3 {
-  background-image: url(./images/Snapshoot3.png);
+  background-image: url(./asset/Snapshoot3.png);
 }
 
 .snap4 {
-  background-image: url(./images/Snapshoot4.png);
+  background-image: url(./asset/Snapshoot4.png);
 }
