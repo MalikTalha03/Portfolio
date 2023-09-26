@@ -165,3 +165,60 @@
 .snap4 {
   background-image: url(./images/Snapshoot4.png);
 }
+
+.about {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  margin-left: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.about-head {
+  width: 327px;
+  height: 50px;
+  font-size: 40px;
+  font-weight: 700;
+  color: #172b4d;
+}
+
+.about-description {
+  width: 327px;
+  height: 147px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #344563;
+}
+
+.resume {
+  font-size: 17px;
+  font-weight: 500;
+  padding: 12px;
+  border: 2px solid #396df2;
+  border-radius: 10px;
+  width: 140px;
+  text-align: center;
+}
+
+.skills {
+  background-color: white;
+  margin-left: 30px;
+}
+
+.skills ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.skills li {
+  background-color: whitesmoke;
+  height: 40px;
+  border-radius: 10px;
+  width: 100%;
+  border: 2px solid red;
+}
+
+.langs {
+  padding-left: 0;
+}
