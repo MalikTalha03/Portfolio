@@ -255,9 +255,13 @@
   color: #000;
   display: flex;
   justify-content: space-between;
-  border-bottom: 2px solid #dfe1e6;
+  padding-right: 15px;
 }
 
 .margin {
   margin-bottom: 150px;
+}
+
+.border {
+  border-bottom: 2px solid #dfe1e6;
 }
