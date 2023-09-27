@@ -98,6 +98,11 @@
   background-color: white;
   border: 20px solid white;
   font-family: 'Poppins', sans-serif;
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 0 0 2px #a7aeef;
 }
 
 .desc {
