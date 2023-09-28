@@ -274,6 +274,7 @@
   font-family: 'Poppins', sans-serif;
   border-top-left-radius: 100px;
 }
+
 .background {
   background-image: url(./images/formbackground.png);
   background-repeat: no-repeat;
@@ -306,4 +307,3 @@
   margin-top: 0;
   margin-bottom: 40px;
 }
-
