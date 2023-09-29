@@ -258,9 +258,10 @@
   padding: 12px;
   border: 2px solid #396df2;
   border-radius: 10px;
-  width: 140px;
+  width: 160px;
   text-align: center;
   color: #396df2;
+  margin-top: 20px;
 }
 
 .skills {
@@ -398,9 +399,17 @@
   color: #6070FF;
   font-size: 17px;
   text-align: center;
+  align-items: center;
   width: 134px;
-  height: 38px;
+  height: 45px;
   background-color: #fff;
   border-radius: 5px;
   padding-top:10px ;
+ }
+
+ .form-spree {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
  }

@@ -132,7 +132,7 @@
             <h6 class="about-description" >Hello I'm a software developer! I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.</h6>
             <h4 class="lets-connect">LET'S CONNECT</h4>
             <img src="./asset/socialmedia.svg" alt="Social Media Icons" class="social-media-icons">
-            <h4 class="resume">Get my Resume</h4>
+            <button onclick="" class="resume">Get my Resume</button>
         </div>
         <div class = "skills">
             <div class="skills-head">
@@ -169,10 +169,12 @@
                 <h1>Contact Me</h1>
             </div>
             <p class="contact-desc">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it!</p>
-            <textarea class="email" placeholder="Enter your email"></textarea>
-            <textarea class="email" placeholder="Subject"></textarea>
-            <textarea class="message" placeholder="Write your message here..."></textarea>
-            <h4 class="send">Get in Touch</h4>
+            <form class="form-spree" action="https://formspree.io/f/xleyodbz" method="post">
+                <textarea name="email" class="email" placeholder="Enter your email here..." maxlength="" required></textarea>
+                <textarea name="full-name" class="email" placeholder="Enter your Name here..." maxlength="30" required></textarea>
+                <textarea name="message" class="message" placeholder="Write youe message here..." maxlength="500" required></textarea>
+                <button class="send" >Get in Touch</button>
+            </form>
         </div>
     </div>
 </body>
