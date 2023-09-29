@@ -92,6 +92,11 @@ body {
   border-radius: 10px;
   background-color: whitesmoke;
   border: 20px solid whitesmoke;
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 }
 
 .snapshoot {
