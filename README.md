@@ -25,13 +25,10 @@
 # 📖 [Portfolio] <a name="Portfolio Project"></a>
 
 
-**[Portfolio Project]** is my first **Mobile First Approach** project.
+**[Portfolio Project]** is my first **Portfolio** project.
 
 ## 🛠 Built With <a name="built-with"></a>
     HTML and CSS
-
-
-<
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
@@ -43,7 +40,7 @@
 
 ### Deployment
 
-You can deploy this project using Github Pages
+You can deploy this project using Github Pages.
 
 
 
@@ -56,6 +53,10 @@ You can deploy this project using Github Pages
 - GitHub: [@MalikTalha03](https://github.com/MalikTalha03)
 - LinkedIn: [Muhammad Talha Naqshbandi](https://linkedin.com/in/vatalha03)
 
+👤 **Hassan Jamal**
+
+- GitHub: [@Hassan-Jamal](https://github.com/Hassan-Jamal)
+
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
@@ -63,7 +64,6 @@ Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page](../../issues/).
 
 
-<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
@@ -71,7 +71,6 @@ Feel free to check the [issues page](../../issues/).
 If you like this project, don't forget to star it.
 
 
-<!-- ACKNOWLEDGEMENTS -->
 
 
 ## 📝 License <a name="license"></a>
