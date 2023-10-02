@@ -254,7 +254,7 @@ body {
   color: #fff;
 }
 
-.resume-button:active{
+.resume-button:active {
   background-color: #2230d2;
   color: #fff;
 }
@@ -440,15 +440,15 @@ body {
   .img2 {
     background-image: url(./images/desktop/Snapshoot2.png);
   }
-  
+
   .img3 {
     background-image: url(./images/desktop/Snapshoot3.png);
   }
-  
+
   .img4 {
     background-image: url(./images/desktop/Snapshoot4.png);
   }
-  
+
   .headline {
     background-image: url(./images/desktop/headerbackground.png);
     background-size: 100% 100%;
@@ -484,7 +484,7 @@ body {
     width: 40%;
     height: 90vh;
   }
-  
+
   .details p {
     margin-top: 0;
   }
