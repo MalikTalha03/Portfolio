@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #EBEBFF;
+  background-color: #ebebff;
   display: flex;
   flex-direction: column;
 }
@@ -23,7 +23,7 @@ body {
   font-size: 18px;
   font-weight: 700;
   margin-left: 20px;
-  color: #6070FF;
+  color: #6070ff;
 }
 
 .menu {
@@ -45,7 +45,7 @@ body {
   width: 70%;
   margin-left: 10%;
   margin-top: 25%;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .intro {
@@ -57,7 +57,7 @@ body {
 
 .connect {
   margin-left: 10%;
-  color: #7F8CFF;
+  color: #7f8cff;
   font-weight: 500;
 }
 
@@ -108,7 +108,7 @@ body {
   height: auto;
   width: auto;
   align-self: flex-start;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .techs {
@@ -122,7 +122,7 @@ body {
   font-size: 13px;
   font-weight: 600;
   margin-left: 2%;
-  color: #7A869A;
+  color: #7a869a;
 }
 
 .no-margin {
@@ -150,11 +150,11 @@ body {
 
 .lang-list {
   align-self: flex-start;
-  background-color: #EBEBFF;
+  background-color: #ebebff;
   border-radius: 8px;
   font-size: 12px;
   padding: 5px 10px;
-  color: #6070FF;
+  color: #6070ff;
   font-weight: 500;
 }
 
@@ -168,8 +168,8 @@ body {
   width: 130px;
   border-radius: 8px;
   font-size: 17px;
-  border: solid #6070FF;
-  color: #396DF2;
+  border: solid #6070ff;
+  color: #396df2;
   background-color: white;
 }
 
@@ -179,7 +179,7 @@ body {
   color: #fff;
 }
 
-.project:active{
+.project:active {
   background-color: #2230d2;
   color: #fff;
 }
@@ -202,7 +202,6 @@ body {
   display: flex;
   flex-direction: column;
   padding-left: 7%;
-  width: 100%;
   height: auto;
   width: 93%;
 }
@@ -217,7 +216,7 @@ body {
   font-weight: 700;
   align-self: flex-start;
   margin-top: 25%;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .details p {
@@ -230,7 +229,7 @@ body {
 .connect-skills {
   font-size: 16px;
   font-weight: 400;
-  color: #7F8CFF;
+  color: #7f8cff;
 }
 
 .lets-connect-skills {
@@ -243,8 +242,8 @@ body {
   width: 150px;
   border-radius: 8px;
   font-size: 17px;
-  border: solid #6070FF;
-  color: #396DF2;
+  border: solid #6070ff;
+  color: #396df2;
   background-color: white;
   margin-top: 2%;
 }
@@ -286,15 +285,14 @@ body {
 
 .lang-item {
   display: flex;
-  background-color: #F7F7F9;
+  background-color: #f7f7f9;
   border-radius: 8px;
-  padding-left: 3%;
   padding: 2%;
   margin-bottom: 3%;
   width: 85%;
 }
 
-.lang-item h3{
+.lang-item h3 {
   font-size: 15px;
   font-weight: 500;
   margin-left: 5%;
@@ -303,10 +301,11 @@ body {
 .border {
   border-bottom: 2px solid #dfe1e6;
 }
+
 .contact-form {
   height: auto;
   width: auto;
-  background-color: #6070FF;
+  background-color: #6070ff;
   border-top-left-radius: 50px;
   display: flex;
   flex-direction: column;
@@ -327,8 +326,7 @@ body {
 .contact-form p {
   font-size: 18px;
   font-weight: 400;
-  color: #EBEBFF;
-  margin-top: 20%;
+  color: #ebebff;
   margin: 0 10%;
   text-align: center;
   line-height: 28px;
@@ -363,8 +361,8 @@ body {
   width: 150px;
   border-radius: 8px;
   font-size: 17px;
-  border: solid #6070FF;
-  color: #396DF2;
+  border: solid #6070ff;
+  color: #396df2;
   background-color: white;
   margin-top: 2%;
 }
@@ -375,7 +373,7 @@ body {
   color: #fff;
 }
 
-.submit:active{
+.submit:active {
   background-color: #2d8bd4;
   color: #fff;
 }
@@ -389,7 +387,6 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-
   .card {
     flex-direction: row;
     height: 450px;
@@ -487,6 +484,7 @@ body {
     width: 40%;
     height: 90vh;
   }
+  
   .details p {
     margin-top: 0;
   }
