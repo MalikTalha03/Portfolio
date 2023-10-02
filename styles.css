@@ -15,6 +15,10 @@ body {
   background-color: #fff;
 }
 
+.nav-links {
+  display: none;
+}
+
 .mylogo {
   font-size: 18px;
   font-weight: 700;
@@ -353,10 +357,6 @@ body {
   resize: none;
 }
 
-.text::placeholder {
-  padding: 5% 0;
-}
-
 .submit {
   align-self: flex-start;
   height: 50px;
@@ -475,6 +475,7 @@ body {
 
   .menu {
     margin-right: 8%;
+    display: none;
   }
 
   .skills {
@@ -552,5 +553,25 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
     border-top-left-radius: 100px;
+  }
+
+  .nav-links {
+    display: flex;
+    align-self: center;
+    margin-right: 13%;
+  }
+
+  .nav-link {
+    margin-left: 12%;
+    font-size: 15px;
+    font-weight: 500;
+    color: #344563;
+    text-decoration: none;
+  }
+
+  .nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
   }
 }
