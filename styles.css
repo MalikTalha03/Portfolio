@@ -394,7 +394,8 @@ body {
     flex-direction: row;
     height: 450px;
     border-radius: 20px;
-    width: 1156px;
+    width: 85%;
+    margin: 15% auto 0;
   }
 
   .img {
@@ -478,6 +479,7 @@ body {
 
   .skills {
     flex-direction: row;
+    border-top-right-radius: 100px;
   }
 
   .details {
