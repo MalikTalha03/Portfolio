@@ -35,7 +35,7 @@ body {
   height: auto;
   background-image: url(./images/header.png);
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   border-bottom-left-radius: 50px;
   background-color: #fff;
 }
@@ -94,18 +94,27 @@ body {
 }
 
 .img {
-  height: 230px;
-  width: 300px;
-  margin-left: 2%;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.img img {
+  height: auto;
+  max-width: 100%;
 }
 
 .card-details h1 {
-  font-size: 32px;
+  font-size: 7.2vw;
   font-weight: 700;
   height: auto;
   width: auto;
   align-self: flex-start;
   color: #172b4d;
+  margin: 0;
 }
 
 .techs {
@@ -116,7 +125,7 @@ body {
 }
 
 .tech-item {
-  font-size: 13px;
+  font-size: 3.7vw;
   font-weight: 600;
   margin-left: 2%;
   color: #7a869a;
@@ -132,7 +141,7 @@ body {
 }
 
 .card-details p {
-  font-size: 15px;
+  font-size: 3.8vw;
   font-weight: 500;
   margin-top: 0;
   color: #344563;
@@ -149,7 +158,7 @@ body {
   align-self: flex-start;
   background-color: #ebebff;
   border-radius: 8px;
-  font-size: 12px;
+  font-size: 3.0vw;
   padding: 5px 10px;
   color: #6070ff;
   font-weight: 500;
@@ -161,10 +170,10 @@ body {
 
 .project {
   align-self: flex-start;
-  height: auto;
-  width: auto;
+  height: 10vw;
+  width: 30%;
   border-radius: 8px;
-  font-size: 1.2vw;
+  font-size: 3.2vw;
   border: solid #6070ff;
   color: #396df2;
   background-color: white;
@@ -298,7 +307,7 @@ body {
   align-items: center;
   background-image: url(./images/formbackground.png);
   background-repeat: no-repeat;
-  background-size: 50%;
+  background-size: 50% ;
   background-position: right;
 }
 
@@ -401,13 +410,19 @@ body {
     height: auto;
     max-width: 100%;
   }
-  
+
+  .project {
+    font-size: 1.2vw;
+    height: 4.2vw;
+    width: 25%;
+    border: solid #7F8CFF;
+  }
   .card-details {
     margin-left: 5%;
     margin-top: 0;
     align-self: self-start;
     height: auto;
-    width: auto;
+    width: 60%;
   }
 
   .card-details h1 {
