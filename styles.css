@@ -184,18 +184,6 @@ body {
   color: #fff;
 }
 
-.img2 {
-  background-image: url(./images/Snapshoot2.png);
-}
-
-.img3 {
-  background-image: url(./images/Snapshoot3.png);
-}
-
-.img4 {
-  background-image: url(./images/Snapshoot4.png);
-}
-
 .skills {
   background-color: #fff;
   margin-top: 25%;
@@ -435,18 +423,6 @@ body {
   .reverse-card {
     flex-direction: row-reverse;
     justify-content: space-around;
-  }
-
-  .img2 {
-    background-image: url(./images/desktop/Snapshoot2.png);
-  }
-
-  .img3 {
-    background-image: url(./images/desktop/Snapshoot3.png);
-  }
-
-  .img4 {
-    background-image: url(./images/desktop/Snapshoot4.png);
   }
 
   .headline {
