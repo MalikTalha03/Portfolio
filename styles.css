@@ -46,6 +46,14 @@ body {
   margin-left: 10%;
   margin-top: 25%;
   color: #172b4d;
+  animation: 2s slide-right forwards;
+    transform:translateX(-100%);
+}
+
+@keyframes slide-right {
+  to {
+    transform:translateX(0);
+  }
 }
 
 .intro {
