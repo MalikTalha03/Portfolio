@@ -47,7 +47,7 @@ body {
   margin-top: 25%;
   color: #172b4d;
   animation: 2s slide-right forwards;
-    transform:translateX(-100%);
+  transform:translateX(-100%);
 }
 
 @keyframes slide-right {
@@ -95,10 +95,12 @@ body {
   border: 20px solid white;
   margin-top: 150px;
   transition: box-shadow 0.3s ease;
+  transition: transform 0.9s;
 }
 
 .card:hover {
   box-shadow: 0 0 0 2px #a7aeef;
+  transform: scale(1.05);
 }
 
 .img {
