@@ -302,23 +302,27 @@ body {
   width: auto;
   background-color: #6070ff;
   border-top-left-radius: 50px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+}
+
+.form-background {
   background-image: url(./images/formbackground.png);
   background-repeat: no-repeat;
   background-size: 50% ;
   background-position: right;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.contact-form h1 {
+.form-background h1 {
   font-size: 40px;
   font-weight: 700;
   color: #fff;
   margin-top: 20%;
 }
 
-.contact-form p {
+.form-background p {
   font-size: 18px;
   font-weight: 400;
   color: #ebebff;
@@ -412,38 +416,42 @@ body {
   }
 
   .project {
-    font-size: 1.2vw;
+    font-size: 1.4vw;
     height: 4.2vw;
     width: 25%;
     border: solid #7F8CFF;
+    font-weight: 500;
   }
   .card-details {
-    margin-left: 5%;
+    margin-left: 4%;
     margin-top: 0;
-    align-self: self-start;
     height: auto;
     width: 60%;
   }
 
   .card-details h1 {
-    font-size: 3vw;
+    font-size: 2.5vw;
     height: auto;
     width: auto;
   }
 
   .card-details p {
-    font-size: 1.4vw;
+    font-size: 1.2vw;
     height: auto;
     width: auto;
   }
 
   .lang-list {
-    font-size: 1.3vw;
+    font-size: 1.1vw;
   }
   
   .tech-item {
-    font-size: 1.4vw;
+    font-size: 1.3vw;
     font-weight: 400;
+  }
+
+  .font {
+    font-weight: 500;
   }
 
   .margin {
@@ -528,8 +536,15 @@ body {
     width: 48px;
   }
 
-  .contact-form p {
+  .form-background p {
     width: 35%;
+  }
+
+  .form-background h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 5%;
   }
 
   .name,
@@ -552,7 +567,7 @@ body {
     width: 0;
   }
 
-  .contact-form {
+  .form-background{
     background-image: url(./images/desktop/contactdesktop.png);
     background-position: center;
     background-size: 100%;
