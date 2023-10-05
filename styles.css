@@ -386,7 +386,7 @@ body {
   cursor: pointer;
   background-color: #2230d2;
   color: #fff;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .submit:active {
