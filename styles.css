@@ -218,7 +218,7 @@ body {
 }
 
 .details h1 {
-  font-size: 40;
+  font-size: 8vw;
   font-weight: 700;
   align-self: flex-start;
   margin-top: 25%;
@@ -230,10 +230,11 @@ body {
   font-weight: 400;
   width: 85%;
   color: #344563;
+  margin: 0;
 }
 
 .connect-skills {
-  font-size: 1.3vw;
+  font-size: 4.3vw;
   font-weight: 400;
   color: #7f8cff;
 }
@@ -247,12 +248,12 @@ body {
   height: auto;
   width: auto;
   border-radius: 8px;
-  font-size: 1.2vw;
+  font-size: 4.2vw;
   border: solid #6070ff;
   color: #396df2;
   background-color: white;
   margin-top: 2%;
-  padding: 2%;
+  padding: 4%;
 }
 
 .resume-button:hover {
@@ -275,6 +276,7 @@ body {
 .list-header {
   display: flex;
   justify-content: space-between;
+  margin-right: 7%;
 }
 
 .list-header h3 {
@@ -324,7 +326,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 10%;
+  padding-top: 0;
   background-color: #6070ff;
   border-top-left-radius: 50px;
 }
@@ -399,6 +401,11 @@ body {
   border-radius: 10px;
   margin: 2% 0;
 }
+
+.bottom-padd {
+  padding-bottom: 15%;
+}
+
 @media only screen and (max-width: 768px) {
   .mob-hide {
     display: none;
@@ -416,6 +423,10 @@ body {
 
   .pc-hide {
     display: none;
+  }
+
+  .bottom-padd {
+    padding-bottom: 5%;
   }
 
   .img {
@@ -519,12 +530,19 @@ body {
     margin-top: 0;
   }
 
+  .details h1 {
+    font-size: 2vw;
+  }
+
   .connect-skills {
     margin-top: 0;
+    font-size: 1.3vw;
   }
 
   .resume-button {
     margin-top: 7%;
+    font-size: 1.2vw;
+    padding: 2%;
   }
 
   .languages {
@@ -589,6 +607,7 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
     border-top-left-radius: 150px;
+    padding-top: 10%;
   }
 
   .nav-links {
