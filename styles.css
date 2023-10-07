@@ -57,7 +57,7 @@ body {
   z-index: 1000;
   opacity: 0;
   pointer-events: none;
-  transition: opacity 0.3s ease;
+  transition: opacity 0.9s ease;
   gap: 5%;
 }
 
@@ -69,6 +69,7 @@ body {
   margin-top: 2%;
   margin-right: 5%;
 }
+
 .overlay-menu a {
   text-decoration: none;
   color: white;
