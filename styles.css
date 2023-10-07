@@ -26,8 +26,34 @@ body {
   color: #6070ff;
 }
 
-.menu {
-  margin-right: 20px;
+.ham-menu {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5%;
+  width: 15%;
+  justify-content: center;
+  align-items: center;
+}
+
+.bar {
+  background-color: #6070ff;
+  height: 8%;
+  width: 50%;
+  margin-bottom: 5%;
+  border-radius: 5px;
+  transition: all 0.3s ease; 
+}
+
+.ham-menu.active .bar:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.ham-menu.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.ham-menu.active .bar:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
 }
 
 .headline {
