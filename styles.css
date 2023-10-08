@@ -44,7 +44,47 @@ body {
   transition: all 0.3s ease; 
 }
 
-.overlay-menu {
+.align {
+  align-self: flex-start;
+}
+
+
+.techs-overlay {
+  display: flex;
+  align-self: flex-start;
+  width: 100vw;
+  margin-bottom: 0;
+}
+
+.techs-overlay h3 {
+  margin-right: 2%;
+}
+
+.top-card {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+}
+
+.p-over {
+  padding-top: 5%;
+  margin-bottom: 0;
+}
+
+.top-card h1 {
+  padding: 0;
+}
+
+.close {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px; 
+  margin-right: 10px;
+}
+
+.overlay-menu,
+.overlay-card {
   position: fixed;
   top: 0;
   right: 0;
@@ -59,6 +99,20 @@ body {
   pointer-events: none;
   transition: opacity 0.9s ease;
   gap: 5%;
+}
+
+.overlay-card {
+  background-color: rgba(193, 199, 208, 0.8);
+  align-content: center;
+  justify-content: center;
+}
+
+.overlay-card .card {
+  margin-top: 0;
+}
+
+.overlay-card .card:hover {
+  transform: none;
 }
 
 .overlay-menu .ham-menu {
@@ -78,7 +132,8 @@ body {
   padding-left: 8%;
 }
 
-.overlay-menu.active {
+.overlay-menu.active,
+.overlay-card.active {
   opacity: 1;
   pointer-events: auto;
 }
@@ -109,6 +164,22 @@ body {
 
 .overlay-menu .bar {
   background-color: white;
+}
+
+.buttons {
+  display: flex;
+  gap: 5%;
+}
+
+.buttons .project {
+  width: 40vw;
+  height: 15vw;
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
 }
 
 .headline {
@@ -196,6 +267,7 @@ body {
 .img img {
   height: auto;
   max-width: 100%;
+  width: 100%;
 }
 
 .card-details h1 {
