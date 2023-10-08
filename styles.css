@@ -783,4 +783,19 @@ body {
     top: 0;
     z-index: 100;
   }
+
+  .overlay-card {
+    overflow-y: scroll;
+    max-height: 100vh;
+  }
+
+  .overlay-card .card {
+    flex-direction: column;
+    margin-top: 60%;
+  }
+
+  .overlay-card .card .img {
+    width: 1108px;
+    height: 586px;
+  }
 }
