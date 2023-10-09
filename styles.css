@@ -46,6 +46,7 @@ body {
 
 .align {
   align-self: flex-start;
+  margin-left: 0;
 }
 
 
@@ -786,16 +787,109 @@ body {
 
   .overlay-card {
     overflow-y: scroll;
-    max-height: 100vh;
+    height: auto;
   }
 
   .overlay-card .card {
     flex-direction: column;
-    margin-top: 60%;
+    margin-top: 40%;
+    margin-bottom: 4%;
   }
 
   .overlay-card .card .img {
     width: 1108px;
     height: 586px;
   }
+
+  .para {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+  }
+
+  .para .p-over {
+    font-weight: 400;
+    font-size: 13px;
+  }
+
+  .img-overlay {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .img-overlay img {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .detail-overlay {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .buttons {
+    margin-right: 5%;
+  }
+
+  .special-project {
+    width: 15vw;
+    height: 3vw;
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #396df2;
+    border-radius: 8px;
+    border: 2px solid #6070ff;
+    background-color: white;
+  }
+
+  .special-project:hover {
+    cursor: pointer;
+    background-color: #2d8bd4;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .special-project:active {
+    background-color: #6070ff;
+    color: #fff;
+  }
+
+  .special-project img{
+    padding-left: 5%;
+  }
+  
+  .langs-button {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+  }
+
+  .langs-button ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    margin-right: 2%;
+  }
+
+  .langs-button ul li {
+    width: auto;
+    margin-top: 2%;
+  }
+
+  .card-details-over {
+    margin-top: 0;
+    height: auto;
+    width: 60%;
+  }
+
+  .card-details-over h1 {
+    font-size: 2.5vw;
+    height: auto;
+    width: auto;
+  }
+
 }
