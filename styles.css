@@ -318,6 +318,14 @@ body {
   padding-left: 0;
 }
 
+.langs-button ul {
+  display: flex;
+  align-self: flex-start;
+  list-style: none;
+  padding-left: 0;
+  gap: 5%;
+}
+
 .lang-list {
   align-self: flex-start;
   background-color: #ebebff;
@@ -595,7 +603,8 @@ body {
     max-width: 100%;
   }
 
-  .project {
+  .project,
+  .project-mob {
     font-size: 1.4vw;
     height: 4.2vw;
     width: 25%;
@@ -890,6 +899,10 @@ body {
     font-size: 2.5vw;
     height: auto;
     width: auto;
+  }
+
+  .project-mob {
+    display: none;
   }
 
 }
