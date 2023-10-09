@@ -352,14 +352,31 @@ body {
   padding: 2%;
 }
 
-.project:hover {
+.project-mob {
+  display: flex;
+  height: 10vw;
+  width: 40%;
+  align-content: center;
+  justify-content: center;
+  border-radius: 8px;
+  font-size: 3.9vw;
+  border: solid #6070ff;
+  color: #396df2;
+  background-color: white;
+  padding: 2%;
+  gap: 2%;
+}
+
+.project:hover,
+.project-mob:hover {
   cursor: pointer;
   background-color: #2d8bd4;
   color: #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.project:active {
+.project:active,
+.project-mob:active {
   background-color: #6070ff;
   color: #fff;
 }
@@ -532,6 +549,10 @@ body {
   resize: none;
 }
 
+.special-project {
+  display: none;
+}
+
 .submit {
   align-self: flex-start;
   height: 50px;
@@ -603,8 +624,7 @@ body {
     max-width: 100%;
   }
 
-  .project,
-  .project-mob {
+  .project {
     font-size: 1.4vw;
     height: 4.2vw;
     width: 25%;
