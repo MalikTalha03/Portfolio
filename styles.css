@@ -227,7 +227,7 @@ body {
   margin-bottom: 16%;
 }
 
-.work-section {
+#work-section {
   display: grid;
   grid-template-rows: repeat(4, auto);
   width: 100%;
@@ -589,13 +589,13 @@ body {
   padding-bottom: 15%;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .mob-hide {
     display: none;
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 767px) {
   .card {
     flex-direction: row;
     height: auto;
