@@ -467,7 +467,7 @@ body {
   margin-right: 10%;
 }
 
-.languages {
+.lang-drop.languages {
   display: flex;
   flex-direction: column;
 }
@@ -706,6 +706,10 @@ body {
     height: 80vh;
   }
 
+  .lang-drop {
+    display: none;
+  }
+
   .details {
     width: 40%;
   }
@@ -729,8 +733,9 @@ body {
     padding: 2%;
   }
 
-  .languages {
+  .lang-drop.languages {
     flex-direction: row;
+    transition: 300s ease-in-out;
   }
 
   .list-header {

@@ -5,7 +5,6 @@ const workSection = document.getElementById('workSec');
 const aboutSection = document.getElementById('aboutSec');
 const contactForm = document.getElementById('contactSec');
 
-// Get all the buttons that open card overlays
 const projectButtons = document.querySelectorAll('.project.see');
 const overlayCards = document.querySelectorAll('.overlay-card');
 
@@ -39,4 +38,16 @@ closeButtons.forEach((closeButton) => {
   closeButton.addEventListener('click', () => {
     closeButton.closest('.overlay-card').classList.remove('active');
   });
+});
+
+
+
+// Get references to the elements
+const toggleButton = document.querySelector('.toggle-arrow');
+const languagesList = document.getElementById('languages-list');
+
+// Add a click event listener to the toggle button
+toggleButton.addEventListener('click', () => {
+    // Toggle the visibility of the languages list
+    languagesList.classList.toggle('languages');
 });
