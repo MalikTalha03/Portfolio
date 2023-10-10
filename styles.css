@@ -703,11 +703,11 @@ body {
     flex-direction: row;
     border-top-right-radius: 100px;
     margin-top: 15%;
+    height: 80vh;
   }
 
   .details {
     width: 40%;
-    height: 90vh;
   }
 
   .details p {
@@ -737,8 +737,8 @@ body {
     width: 600px;
   }
 
-  .langs {
-    justify-content: center;
+  .first-head {
+    margin-top: 20%;
   }
 
   .lang-item {
