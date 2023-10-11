@@ -490,6 +490,7 @@ body {
 .lang-drop.languages {
   display: flex;
   flex-direction: column;
+  transition: 300s ease-in-out;
 }
 
 .lang-item {
@@ -505,6 +506,15 @@ body {
   font-size: 15px;
   font-weight: 500;
   margin-left: 5%;
+}
+
+.lang-drop {
+  display: none;
+}
+
+.lang-item img {
+  height: 48px;
+  width: 48px;
 }
 
 .border {
@@ -726,10 +736,6 @@ body {
     height: 80vh;
   }
 
-  .lang-drop {
-    display: none;
-  }
-
   .details {
     width: 40%;
   }
@@ -771,11 +777,6 @@ body {
     height: 55%;
     margin-right: 5%;
     flex-direction: column;
-  }
-
-  .lang-item img {
-    height: 48px;
-    width: 48px;
   }
 
   .form-background p {
