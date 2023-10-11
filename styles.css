@@ -463,8 +463,14 @@ body {
   font-weight: 500;
 }
 
-.list-header img {
-  margin-right: 10%;
+.toggle-arrow {
+  margin-right: 5%;
+  align-self: center;
+  transition: transform 300ms ease-in-out;
+}
+
+.toggle-arroww {
+  transform: rotate(90deg);
 }
 
 .lang-drop.languages {
@@ -754,8 +760,8 @@ body {
   }
 
   .lang-item img {
-    height: 65%;
-    width: 65%;
+    height: 48px;
+    width: 48px;
   }
 
   .form-background p {

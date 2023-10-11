@@ -42,12 +42,12 @@ closeButtons.forEach((closeButton) => {
 
 
 
-// Get references to the elements
-const toggleButton = document.querySelector('.toggle-arrow');
-const languagesList = document.getElementById('languages-list');
+const toggleButtons = document.querySelectorAll('.toggle-arrow');
+const languagesLists = document.querySelectorAll('.lang-drop');
 
-// Add a click event listener to the toggle button
-toggleButton.addEventListener('click', () => {
-    // Toggle the visibility of the languages list
-    languagesList.classList.toggle('languages');
+toggleButtons.forEach((toggleButton, index) => {
+    toggleButton.addEventListener('click', () => {
+        languagesLists[index].classList.toggle('languages');
+        toggleButton.classList.toggle('toggle-arroww');
+    });
 });
