@@ -271,6 +271,7 @@ body {
 .langs {
   display: flex;
   flex-direction: column;
+  margin-right: 5%;
 }
 
 .list-header {
@@ -300,6 +301,13 @@ body {
   padding: 2%;
   margin-bottom: 3%;
   width: 85%;
+}
+
+.lang-list:hover {
+  cursor: pointer;
+  background-color: #2d8bd4;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: white;
 }
 
 .lang-item h3 {
@@ -524,7 +532,6 @@ body {
 
   .details {
     width: 40%;
-    height: 90vh;
   }
 
   .details p {
@@ -556,6 +563,10 @@ body {
 
   .langs {
     justify-content: center;
+  }
+
+  .header-lang {
+    margin-top: 20%;
   }
 
   .lang-item {
