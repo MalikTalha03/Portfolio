@@ -40,14 +40,12 @@ closeButtons.forEach((closeButton) => {
   });
 });
 
-
-
 const toggleButtons = document.querySelectorAll('.toggle-arrow');
 const languagesLists = document.querySelectorAll('.lang-drop');
 
 toggleButtons.forEach((toggleButton, index) => {
-    toggleButton.addEventListener('click', () => {
-        languagesLists[index].classList.toggle('languages');
-        toggleButton.classList.toggle('toggle-arroww');
-    });
+  toggleButton.addEventListener('click', () => {
+    languagesLists[index].classList.toggle('languages');
+    toggleButton.classList.toggle('toggle-arroww');
+  });
 });
