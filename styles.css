@@ -453,6 +453,7 @@ body {
   display: flex;
   flex-direction: column;
   margin-right: 5%;
+  height: auto;
 }
 
 .list-header {
@@ -480,6 +481,7 @@ body {
   display: flex;
   flex-direction: column;
   transition: 300s ease-in-out;
+  height: auto;
 }
 
 .lang-item {
