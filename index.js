@@ -7,6 +7,8 @@ const contactForm = document.getElementById('contactSec');
 
 const projectButtons = document.querySelectorAll('.project.see');
 const overlayCards = document.querySelectorAll('.overlay-card');
+const toggleButtons = document.querySelectorAll('.toggle-arrow');
+const languagesLists = document.querySelectorAll('.lang-drop');
 
 hamMenu.addEventListener('click', () => {
   hamMenu.classList.toggle('active');
@@ -40,11 +42,18 @@ closeButtons.forEach((closeButton) => {
   });
 });
 
-const toggleButtons = document.querySelectorAll('.toggle-arrow');
-const languagesLists = document.querySelectorAll('.lang-drop');
-
 toggleButtons.forEach((toggleButton, index) => {
   toggleButton.addEventListener('click', () => {
+    languagesLists.forEach((list, i) => {
+      if (i !== index) {
+        list.classList.remove('languages');
+      }
+    });
+    toggleButtons.forEach((btn, i) => {
+      if (i !== index) {
+        btn.classList.remove('toggle-arroww');
+      }
+    });
     languagesLists[index].classList.toggle('languages');
     toggleButton.classList.toggle('toggle-arroww');
   });
