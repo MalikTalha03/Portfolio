@@ -8,6 +8,24 @@ const contactForm = document.getElementById('contactSec');
 const toggleButtons = document.querySelectorAll('.toggle-arrow');
 const languagesLists = document.querySelectorAll('.lang-drop');
 const projectButtons = document.querySelectorAll('.project.see');
+const cardData = [];
+
+const cards = document.querySelectorAll(".card");
+cards.forEach((card) => {
+  const titleElement = card.querySelector("#title");
+  const imagesDiv = document.querySelector("#images");
+if (imagesDiv && titleElement) {
+  const imagesHTML = imagesDiv.innerHTML;
+  
+  const title = titleElement.textContent.trim();
+  cardData.push({ title, imagesHTML });
+  console.log(cardData[0].imagesHTML);
+}
+
+});
+
+console.log(cardData);
+
 
 
 hamMenu.addEventListener('click', () => {
@@ -29,11 +47,6 @@ workSection.addEventListener('click', closeOverlayMenu);
 aboutSection.addEventListener('click', closeOverlayMenu);
 contactForm.addEventListener('click', closeOverlayMenu);
 
-projectButtons.forEach((button, index) => {
-  button.addEventListener('click', () => {
-    overlayCards[index].classList.add('active');
-  });
-});
 
 const closeButtons = document.querySelectorAll('.close');
 closeButtons.forEach((closeButton) => {
@@ -66,10 +79,15 @@ const overlaycard = document.createElement("div");
 overlaycard.setAttribute("class","overlay-card");
 overlaycard.setAttribute("id","overlay-card");
 
-overlaycard.innerHTML = `<div class="card">  
+
+
+
+projectButtons.forEach((button, index) => {
+    button.addEventListener('click', () => {
+      overlaycard.innerHTML = `<div class="card">  
 <div class="card-details align">
     <div class="top-card">
-        <h1>Tonic</h1>
+        ${cardData[index].title}
         <img src="./images/Cancel.svg" alt="cancel button" class="close" id="close">
     </div>
     <div class="techs-overlay">
@@ -81,8 +99,7 @@ overlaycard.innerHTML = `<div class="card">
     </div>
 </div>
 <div class="img-overlay">
-    <img class="mob-hide" src="./images/desktop/cardoverlay1.png" alt="card1">
-    <img class="pc-hide" src="./images/Snapshoot1.png" alt="card1">
+    ${cardData[index].imagesHTML}
 </div>
 <div class="card-details detail-overlay">
     <div class="para">
@@ -114,10 +131,6 @@ overlaycard.innerHTML = `<div class="card">
     </div>
 </div>
 </div>`;
-
-
-projectButtons.forEach((button, index) => {
-    button.addEventListener('click', () => {
       workcrd[index].appendChild(overlaycard);
       const closeButtons = document.querySelectorAll('.close');
       closeButtons.forEach((closeButton) => {
