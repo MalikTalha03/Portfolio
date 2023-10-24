@@ -62,7 +62,7 @@ projectButtons.forEach((button, index) => {
       const closeButtons = document.querySelectorAll('.close');
       closeButtons.forEach((closeButton) => {
         closeButton.addEventListener('click', function(event) {
-            const card = event.target.closest('.work-card');
+            const card = event.target.closest('.overlay-card');
             if (card) {
               card.remove();
             }
