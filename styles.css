@@ -155,7 +155,7 @@ body {
 }
 
 .overlay-menu.active,
-.overlay-card.active {
+.overlay-card {
   opacity: 1;
   pointer-events: auto;
 }
