@@ -12,16 +12,13 @@ const cardData = [];
 
 const cards = document.querySelectorAll(".card");
 cards.forEach((card) => {
-  const titleElement = card.querySelector("#title");
-  const imagesDiv = document.querySelector("#images");
-if (imagesDiv && titleElement) {
-  const imagesHTML = imagesDiv.innerHTML;
-  
-  const title = titleElement.textContent.trim();
-  cardData.push({ title, imagesHTML });
-  console.log(cardData[0].imagesHTML);
-}
-
+  const titleElement = card.querySelector(".title");
+  const imagesDiv = document.querySelector(".images");
+  if (imagesDiv && titleElement) {
+    const imagesHTML = imagesDiv.innerHTML;
+    const title = titleElement.innerHTML;
+    cardData.push({ title, imagesHTML });
+  }
 });
 
 console.log(cardData);
