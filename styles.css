@@ -105,6 +105,7 @@ body {
   background-color: rgba(193, 199, 208, 0.8);
   align-content: center;
   justify-content: center;
+  overflow-y: scroll;
 }
 
 .card {
@@ -125,7 +126,7 @@ body {
 }
 
 .overlay-card .card {
-  margin-top: 0;
+  margin-bottom: 30px;
 }
 
 .card:hover {
@@ -843,7 +844,7 @@ body {
 
   .overlay-card .card {
     flex-direction: column;
-    margin-top: 40%;
+    margin-top: 650px;
     margin-bottom: 4%;
   }
 
