@@ -324,18 +324,12 @@ body {
   font-weight: 500;
 }
 
-.lang-list:hover {
-  cursor: pointer;
-  background-color: #2d8bd4;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
 .lang-list a {
   text-decoration: none;
   color: #6070ff;
 }
 
-.lang-list:hover > a {
+.lang-list:hover a {
   color: #fff;
 }
 
