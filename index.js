@@ -10,10 +10,10 @@ const languagesLists = document.querySelectorAll('.lang-drop');
 const projectButtons = document.querySelectorAll('.project.see');
 const cardData = [];
 
-const cards = document.querySelectorAll(".card");
+const cards = document.querySelectorAll('.card');
 cards.forEach((card) => {
-  const titleElement = card.querySelector(".title");
-  const imagesDiv = card.querySelector(".images");
+  const titleElement = card.querySelector('.title');
+  const imagesDiv = card.querySelector('.images');
   if (imagesDiv && titleElement) {
     const imagesHTML = imagesDiv.innerHTML;
     const title = titleElement.innerHTML;
@@ -64,16 +64,16 @@ toggleButtons.forEach((toggleButton, index) => {
   });
 });
 
-const workcrd = document.querySelectorAll(".work-card");
+const workcrd = document.querySelectorAll('.work-card');
 
-const overlaycard = document.createElement("div");
+const overlaycard = document.createElement('div');
 
-overlaycard.setAttribute("class","overlay-card");
-overlaycard.setAttribute("id","overlay-card");
+overlaycard.setAttribute('class', 'overlay-card');
+overlaycard.setAttribute('id', 'overlay-card');
 
 projectButtons.forEach((button, index) => {
-    button.addEventListener('click', () => {
-      overlaycard.innerHTML = `<div class="card">  
+  button.addEventListener('click', () => {
+    overlaycard.innerHTML = `<div class="card">  
 <div class="card-details align">
     <div class="top-card">
         ${cardData[index].title}
@@ -120,15 +120,15 @@ projectButtons.forEach((button, index) => {
     </div>
 </div>
 </div>`;
-      workcrd[index].appendChild(overlaycard);
-      const closeButtons = document.querySelectorAll('.close');
-      closeButtons.forEach((closeButton) => {
-        closeButton.addEventListener('click', function(event) {
-            const card = event.target.closest('.overlay-card');
-            if (card) {
-              card.remove();
-            }
-    });
+    workcrd[index].appendChild(overlaycard);
+    const closeButtons = document.querySelectorAll('.close');
+    closeButtons.forEach((closeButton) => {
+      closeButton.addEventListener('click', (event) => {
+        const card = event.target.closest('.overlay-card');
+        if (card) {
+          card.remove();
+        }
+      });
     });
   });
 });
