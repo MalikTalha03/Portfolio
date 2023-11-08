@@ -13,17 +13,13 @@ const cardData = [];
 const cards = document.querySelectorAll(".card");
 cards.forEach((card) => {
   const titleElement = card.querySelector(".title");
-  const imagesDiv = document.querySelector(".images");
+  const imagesDiv = card.querySelector(".images");
   if (imagesDiv && titleElement) {
     const imagesHTML = imagesDiv.innerHTML;
     const title = titleElement.innerHTML;
     cardData.push({ title, imagesHTML });
   }
 });
-
-console.log(cardData);
-
-
 
 hamMenu.addEventListener('click', () => {
   hamMenu.classList.toggle('active');
@@ -43,7 +39,6 @@ function closeOverlayMenu() {
 workSection.addEventListener('click', closeOverlayMenu);
 aboutSection.addEventListener('click', closeOverlayMenu);
 contactForm.addEventListener('click', closeOverlayMenu);
-
 
 const closeButtons = document.querySelectorAll('.close');
 closeButtons.forEach((closeButton) => {
@@ -75,9 +70,6 @@ const overlaycard = document.createElement("div");
 
 overlaycard.setAttribute("class","overlay-card");
 overlaycard.setAttribute("id","overlay-card");
-
-
-
 
 projectButtons.forEach((button, index) => {
     button.addEventListener('click', () => {
