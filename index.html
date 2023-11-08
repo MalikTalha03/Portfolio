@@ -9,128 +9,163 @@
 <body>
     <div class="nav">
         <h1 class="mylogo">My Logo</h1>
-        <img src="./images/Menu.svg" alt="hamburger menu icon" class="menu">
+        <div class="pc-hide ham-menu" id="hamMenu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>          
         <div class="nav-links">
-            <a href="#work-section" class="nav-link">Portfolio</a>
-            <a href="#about" class="nav-link">About</a>
-            <a href="#contact" class="nav-link">Contact</a>
+            <a href="#work-section" class="nav-link" >Portfolio</a>
+            <a href="#about" class="nav-link" >About</a>
+            <a href="#contact" class="nav-link" >Contact</a>
+        </div>
+        <div class="overlay-menu">
+            <div class="pc-hide ham-menu" id="hamMenuOverlay">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <a href="#work-section" class="nav-link" id="workSec">Portfolio</a>
+            <a href="#about" class="nav-link" id="aboutSec">About</a>
+            <a href="#contact" class="nav-link" id="contactSec">Contact</a>
         </div>
     </div>
-    <div class="headline">
+    <div class="headline" id="headline">
         <h1 class="intro-head">I'm Malik. Glad to see you!</h1>
         <p class="intro">I'm a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.</p>
         <h3 class="connect">Let's Connect</h3>
         <img src="./images/SocialMedia.svg" alt="social media icons" class="lets-connect">
     </div>
     <div id="work-section" class="worksection">
-        <div class="card">
-            <div class="img">
-                <img class="mob-hide" src="./images/desktop/Snapshoot1.png" alt="card1">
-                <img class="pc-hide" src="./images/Snapshoot1.png" alt="card1">
-            </div>
-            <div class="card-details">
-                <h1>Tonic</h1>
-                <div class="techs">
-                    <h3 class="tech-item no-margin font">Canopy</h3>
-                    <img src="./images/Counter.svg" alt="">
-                    <h3 class="tech-item">Back End Dev</h3>
-                    <img src="./images/Counter.svg" alt="">
-                    <h3 class="tech-item">2015</h3>
+        <div class="work-card">
+            <div class="card" id="card">
+                <div class="img images" >
+                    <img class="mob-hide" src="./images/desktop/Snapshoot1.png" alt="card1">
+                    <img class="pc-hide" src="./images/Snapshoot1.png" alt="card1">
                 </div>
-                <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                <ul>
-                    <li class="lang-list">HTML</li>
-                    <li class="lang-list margin">CSS</li>
-                    <li class="lang-list margin">Javascript</li>
-                    <li  class="mob-hide lang-list margin">Ruby on rails</li>
-                </ul>
-                <button class="project">See Project</button>
+                <div class="card-details">
+                    <div class="title">
+                        <h1>Tonic</h1>
+                    </div>
+                    <div class="techs">
+                        <h3 class="tech-item no-margin font">Canopy</h3>
+                        <img src="./images/Counter.svg" alt="">
+                        <h3 class="tech-item">Back End Dev</h3>
+                        <img src="./images/Counter.svg" alt="">
+                        <h3 class="tech-item">2015</h3>
+                    </div>
+                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                    <ul>
+                        <li class="lang-list"><a href="https://html.spec.whatwg.org/multipage/">HTML</a></li>
+                        <li class="lang-list margin"><a href="https://devdocs.io/css/">CSS</a></li>
+                        <li class="lang-list margin"><a href="https://devdocs.io/javascript/">Javascript</a></li>
+                        <li  class="mob-hide lang-list margin"><a href="https://guides.rubyonrails.org/">Ruby on rails</a></li>
+                    </ul>
+                    <button class="project see" id="proj-button">See Project</button>
+                </div>
             </div>
         </div>
-        <div class="card reverse-card">
-            <div class="img">
-                <img class="mob-hide" src="./images/desktop/Snapshoot2.png" alt="card2">
-                <img class="pc-hide" src="./images/Snapshoot2.png" alt="card2">
-            </div>
-            <div class="card-details">
-                <h1 class="pc-hide">Multi Post Stories</h1>
-                <h1 class="mob-hide">Multi Post Stories</h1>
-                <div class="techs">
-                    <h3 class="tech-item no-margin mob-hide  font">Facebook</h3>
-                    <h3 class="tech-item no-margin pc-hide">Canopy</h3>
-                    <img src="./images/Counter.svg" alt="">
-                    <h3 class="tech-item pc-hide">Back End Dev</h3>
-                    <h3 class="tech-item mob-hide">Full Stack Dev</h3>
-                    <img src="./images/Counter.svg" alt="">
-                    <h3 class="tech-item">2015</h3>
+        
+        <div class="work-card">
+            <div class="card reverse-card">
+                <div class="img images">
+                    <img class="mob-hide" src="./images/desktop/Snapshoot2.png" alt="card2">
+                    <img class="pc-hide" src="./images/Snapshoot2.png" alt="card2">
                 </div>
-                <p class="pc-hide">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                <p class="mob-hide">Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</p>
-                <ul>
-                    <li class="lang-list">HTML</li>
-                    <li class="lang-list margin">CSS</li>
-                    <li class="lang-list margin">Javascript</li>
-                    <li  class="mob-hide lang-list margin">Ruby on rails</li>
-                </ul>
-                <button class="project">See Project</button>
-            </div>
-        </div>
-        <div class="card">
-            <div class="img">
-                <img class="mob-hide" src="./images/desktop/Snapshoot3.png" alt="card3">
-                <img class="pc-hide" src="./images/Snapshoot3.png" alt="card3">
-            </div>
-            <div class="card-details">
-                <h1 class="pc-hide">Tonic</h1>
-                <h1 class="mob-hide">Facebook 360</h1>
-                <div class="techs">
-                    <h3 class="tech-item no-margin mob-hide font">Facebook</h3>
-                    <h3 class="tech-item no-margin pc-hide">Canopy</h3>
-                    <img src="./images/Counter.svg" alt="">
-                    <h3 class="tech-item pc-hide">Back End Dev</h3>
-                    <h3 class="tech-item mob-hide">Full Stack Dev</h3>
-                    <img src="./images/Counter.svg" alt="">
-                    <h3 class="tech-item">2015</h3>
+                <div class="card-details">
+                    <div class="title">
+                        <h1 class="pc-hide">Multi Post Stories</h1>
+                        <h1 class="mob-hide">Multi Post Stories</h1>
+                    </div>
+                    <div class="techs">
+                        <h3 class="tech-item no-margin mob-hide  font">Facebook</h3>
+                        <h3 class="tech-item no-margin pc-hide">Canopy</h3>
+                        <img src="./images/Counter.svg" alt="">
+                        <h3 class="tech-item pc-hide">Back End Dev</h3>
+                        <h3 class="tech-item mob-hide">Full Stack Dev</h3>
+                        <img src="./images/Counter.svg" alt="">
+                        <h3 class="tech-item">2015</h3>
+                    </div>
+                    <p class="pc-hide">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                    <p class="mob-hide">Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</p>
+                    <ul>
+                        <li class="lang-list"><a href="https://html.spec.whatwg.org/multipage/">HTML</a></li>
+                        <li class="lang-list margin"><a href="https://devdocs.io/css/">CSS</a></li>
+                        <li class="lang-list margin"><a href="https://devdocs.io/javascript/">Javascript</a></li>
+                        <li  class="mob-hide lang-list margin"><a href="https://guides.rubyonrails.org/">Ruby on rails</a></li>
+                    </ul>
+                    <button class="project see" id="proj-button">See Project</button>
                 </div>
-                <p class="pc-hide">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                <p class="mob-hide">Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.</p>
-                <ul>
-                    <li class="lang-list">HTML</li>
-                    <li class="lang-list margin">CSS</li>
-                    <li class="lang-list margin">Javascript</li>
-                    <li  class="mob-hide lang-list margin">Ruby on rails</li>
-                </ul>
-                <button class="project">See Project</button>
             </div>
+            
         </div>
-        </div>
-        <div class="card reverse-card">
-            <div class="img">
-                <img class="mob-hide" src="./images/desktop/Snapshoot4.png" alt="card4">
-                <img class="pc-hide" src="./images/Snapshoot4.png" alt="card4">
-            </div>
-            <div class="card-details">
-                <h1 class="mob-hide">Uber Navigation</h1>
-                <h1 class="pc-hide">Multi Post Stories</h1>
-                <div class="techs">
-                    <h3 class="tech-item no-margin pc-hide">Canopy</h3>
-                    <h3 class="tech-item no-margin mob-hide font">Uber</h3>
-                    <img src="./images/Counter.svg" alt="">
-                    <h3 class="tech-item pc-hide">Back End Dev</h3>
-                    <h3 class="tech-item mob-hide">Lead Developer</h3>
-                    <img src="./images/Counter.svg" alt="">
-                    <h3 class="tech-item">2015</h3>
+        
+        <div class="work-card">
+            <div class="card">
+                <div class="img images">
+                    <img class="mob-hide" src="./images/desktop/Snapshoot3.png" alt="card3">
+                    <img class="pc-hide" src="./images/Snapshoot3.png" alt="card3">
                 </div>
-                <p class="pc-hide">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                <p class="mob-hide">A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.</p>
-                <ul>
-                    <li class="lang-list">HTML</li>
-                    <li class="lang-list margin">CSS</li>
-                    <li class="lang-list margin">Javascript</li>
-                    <li  class="mob-hide lang-list margin">Ruby on rails</li>
-                </ul>
-                <button class="project">See Project</button>
+                <div class="card-details">
+                    <div class="title">
+                        <h1 class="pc-hide">Tonic</h1>
+                        <h1 class="mob-hide">Facebook 360</h1>
+                    </div>
+                    <div class="techs">
+                        <h3 class="tech-item no-margin mob-hide font">Facebook</h3>
+                        <h3 class="tech-item no-margin pc-hide">Canopy</h3>
+                        <img src="./images/Counter.svg" alt="">
+                        <h3 class="tech-item pc-hide">Back End Dev</h3>
+                        <h3 class="tech-item mob-hide">Full Stack Dev</h3>
+                        <img src="./images/Counter.svg" alt="">
+                        <h3 class="tech-item">2015</h3>
+                    </div>
+                    <p class="pc-hide">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                    <p class="mob-hide">Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.</p>
+                    <ul>
+                        <li class="lang-list"><a href="https://html.spec.whatwg.org/multipage/">HTML</a></li>
+                        <li class="lang-list margin"><a href="https://devdocs.io/css/">CSS</a></li>
+                        <li class="lang-list margin"><a href="https://devdocs.io/javascript/">Javascript</a></li>
+                        <li  class="mob-hide lang-list margin"><a href="https://guides.rubyonrails.org/">Ruby on rails</a></li>
+                    </ul>
+                    <button class="project see" id="proj-button">See Project</button>
+                </div>
             </div>
+            
+        </div>
+        
+        <div class="work-card">
+            <div class="card reverse-card">
+                <div class="img images">
+                    <img class="mob-hide" src="./images/desktop/Snapshoot4.png" alt="card4">
+                    <img class="pc-hide" src="./images/Snapshoot4.png" alt="card4">
+                </div>
+                <div class="card-details">
+                    <div class="title">
+                        <h1 class="mob-hide">Uber Navigation</h1>
+                        <h1 class="pc-hide">Multi Post Stories</h1>
+                    </div>
+                    <div class="techs">
+                        <h3 class="tech-item no-margin pc-hide">Canopy</h3>
+                        <h3 class="tech-item no-margin mob-hide font">Uber</h3>
+                        <img src="./images/Counter.svg" alt="">
+                        <h3 class="tech-item pc-hide">Back End Dev</h3>
+                        <h3 class="tech-item mob-hide">Lead Developer</h3>
+                        <img src="./images/Counter.svg" alt="">
+                        <h3 class="tech-item">2015</h3>
+                    </div>
+                    <p class="pc-hide">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                    <p class="mob-hide">A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.</p>
+                    <ul>
+                        <li class="lang-list"><a href="https://html.spec.whatwg.org/multipage/">HTML</a></li>
+                        <li class="lang-list margin"><a href="https://devdocs.io/css/">CSS</a></li>
+                        <li class="lang-list margin"><a href="https://devdocs.io/javascript/">Javascript</a></li>
+                        <li  class="mob-hide lang-list margin"><a href="https://guides.rubyonrails.org/">Ruby on rails</a></li>
+                    </ul>
+                    <button class="project see" id="proj-button">See Project</button>
+                </div>
+            </div>
+            
         </div>
     </div>
     <div id="about" class="skills bottom-padd">
@@ -139,35 +174,72 @@
             <p>Hello I'm a software developer! I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.</p>
             <h3 class="connect-skills">Let's Connect</h3>
             <img src="./images/SocialMedia.svg" alt="social media icons" class="lets-connect-skills">
-            <button class="resume-button" >Get my resume</button>
+            
+            <a href="./resources/Resume.pdf" download="Malik's Resume" >
+                <button class="resume-button" >Get my resume</button>
+            </a>
         </div>
         <div class="langs">
-            <div class="list-header header-lang">
+            <div class="list-header first-head border">
                 <h3>Languages</h3>
-                <img src="./images/arrowdown.svg" alt="arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" class="toggle-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.29289 5.29289C9.68342 4.90237 10.3166 4.90237 10.7071 5.29289L16.7071 11.2929C17.0976 11.6834 17.0976 12.3166 16.7071 12.7071L10.7071 18.7071C10.3166 19.0976 9.68342 19.0976 9.29289 18.7071C8.90237 18.3166 8.90237 17.6834 9.29289 17.2929L14.5858 12L9.29289 6.70711C8.90237 6.31658 8.90237 5.68342 9.29289 5.29289Z" fill="#505F79"/>
+                </svg>
             </div>
-            <div class="languages">
-                <div class="lang-item">
+            <ul class="lang-drop" id="languages-list">
+                <li class="lang-item">
                     <img src="./images/js.svg" alt="">
                     <h3>Javascript</h3>
-                </div>
-                <div class="lang-item">
+                </li>
+                <li class="lang-item">
                     <img src="./images/html.svg" alt="">
                     <h3>HTML</h3>
-                </div>
-                <div class="lang-item">
+                </li>
+                <li class="lang-item">
                     <img src="./images/css.svg" alt="">
                     <h3>CSS</h3>
-                </div>
-            </div>
+                </li>
+            </ul>
             <div class="list-header border">
                 <h3>Frameworks</h3>
-                <img src="./images/arrow.svg" alt="arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" class="toggle-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.29289 5.29289C9.68342 4.90237 10.3166 4.90237 10.7071 5.29289L16.7071 11.2929C17.0976 11.6834 17.0976 12.3166 16.7071 12.7071L10.7071 18.7071C10.3166 19.0976 9.68342 19.0976 9.29289 18.7071C8.90237 18.3166 8.90237 17.6834 9.29289 17.2929L14.5858 12L9.29289 6.70711C8.90237 6.31658 8.90237 5.68342 9.29289 5.29289Z" fill="#505F79"/>
+                </svg>
             </div>
+            <ul class="lang-drop" id="languages-list">
+                <li class="lang-item">
+                    <img src="./images/react-svgrepo-com.svg" alt="">
+                    <h3>React</h3>
+                </li>
+                <li class="lang-item">
+                    <img src="./images/nodejs-icon-svgrepo-com.svg" alt="">
+                    <h3>NodeJS</h3>
+                </li>
+                <li class="lang-item">
+                    <img src="./images/django-svgrepo-com.svg" alt="">
+                    <h3>Django</h3>
+                </li>
+            </ul>
             <div class="list-header border">
                 <h3>Skills</h3>
-                <img src="./images/arrow.svg" alt="arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" class="toggle-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.29289 5.29289C9.68342 4.90237 10.3166 4.90237 10.7071 5.29289L16.7071 11.2929C17.0976 11.6834 17.0976 12.3166 16.7071 12.7071L10.7071 18.7071C10.3166 19.0976 9.68342 19.0976 9.29289 18.7071C8.90237 18.3166 8.90237 17.6834 9.29289 17.2929L14.5858 12L9.29289 6.70711C8.90237 6.31658 8.90237 5.68342 9.29289 5.29289Z" fill="#505F79"/>
+                </svg>
             </div>
+            <ul class="lang-drop" id="languages-list">
+                <li class="lang-item">
+                    <img src="./images/git-svgrepo-com.svg" alt="">
+                    <h3>Git</h3>
+                </li>
+                <li class="lang-item">
+                    <img src="./images/web-development-svgrepo-com.svg" alt="">
+                    <h3>Web Dev</h3>
+                </li>
+                <li class="lang-item">
+                    <img src="./images/debug-script-svgrepo-com.svg" alt="">
+                    <h3>Debugging</h3>
+                </li>
+            </ul>
         </div>
     </div>
     <div id="contact" class="contact-form">
@@ -183,5 +255,6 @@
         <div class="footer"></div>
         </div>
     </div>
+    <script src="./index.js"></script>
 </body>
 </html>
