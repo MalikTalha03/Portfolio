@@ -499,6 +499,13 @@ body {
   transform: scale(1.03);
 }
 
+.lang-list:hover {
+  cursor: pointer;
+  background-color: #2d8bd4;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
 .lang-item h3 {
   font-size: 15px;
   font-weight: 500;
@@ -766,6 +773,10 @@ body {
   }
 
   .first-head {
+    margin-top: 20%;
+  }
+
+  .header-lang {
     margin-top: 20%;
   }
 
